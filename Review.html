@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Reviews | Samluck~Curtz Barber Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="head">
+            <a href="index.html"><img src="./samlogo.jpg" alt="Samluck Curtz Logo" class="logo"></a>
+            <h1 class="sam">Samluck~Curtz</h1> 
+            <nav class="info d-none d-md-flex">
+                <a href="Our%20Services.html">Services</a>
+                <a href="http://127.0.0.1:5500/Review.html" class="active">Reviews</a>
+                <a href="http://127.0.0.1:5500/Contact.html">Contact</a>
+            </nav>
+            <button class="mobile-menu-btn d-md-none" id="menuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>  
+    </header>
+    
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="index.html">Home</a>
+        <a href="Our%20Services.html">Services</a>
+        <a href="http://127.0.0.1:5500/Review.html" class="active">Reviews</a>
+        <a href="http://127.0.0.1:5500/Contact.html">Contact</a>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="reviews-container">
+        <h1 class="page-title">Customer Reviews</h1>
+        
+        <!-- Rating Filter -->
+        <div class="rating-filter">
+            <button class="filter-btn active">All Reviews</button>
+            <button class="filter-btn">5 Stars</button>
+            <button class="filter-btn">4 Stars</button>
+            <button class="filter-btn">3 Stars</button>
+        </div>
+        
+        <!-- Reviews Grid -->
+        <div class="reviews-grid">
+            <!-- Review 1 -->
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="./now3.jpg" alt="Deji A." class="reviewer-img">
+                    <div class="reviewer-info">
+                        <div class="reviewer-name">Deji A.</div>
+                        <div class="review-date">March 15, 2024</div>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star active"></i>
+                </div>
+                <div class="review-text">
+                    Best cut I've had in years. The barber was professional and friendly, and took the time to understand exactly what I wanted. The shop has a great atmosphere too. Will definitely be coming back regularly!
+                </div>
+                <div class="review-images">
+                    <!-- <img src="./now1.jpg" alt="Haircut result" class="review-image"> -->
+                    <!-- <img src="./now3.jpg" alt="Haircut side view" class="review-image"> -->
+                </div>
+            </div>
+            
+            <!-- Review 2 -->
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="./now4.jpg" alt="Cheevo R." class="reviewer-img">
+                    <div class="reviewer-info">
+                        <div class="reviewer-name">Cheevo R.</div>
+                        <div class="review-date">February 28, 2024</div>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star active"></i>
+                </div>
+                <div class="review-text">
+                    The vibe, the precision, the service - everything was top notch! My fade was crisp and exactly how I wanted it. The beard trim was also perfect. These guys really know their craft.
+                </div>
+                <div class="review-images">
+                    <!-- <img src="./now4.jpg" alt="Fade haircut" class="review-image"> -->
+                </div>
+            </div>
+            
+            <!-- Review 3 -->
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="./now1.jpg" alt="Temmy O." class="reviewer-img">
+                    <div class="reviewer-info">
+                        <div class="reviewer-name">Temmy O.</div>
+                        <div class="review-date">February 10, 2024</div>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="review-text">
+                    Absolutely love my haircut - clean and exactly what I asked for. The service was exceptional.
+                </div>
+            </div>
+            
+            <!-- Review 4 -->
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="./now.jpg" alt="Marvel T." class="reviewer-img">
+                    <div class="reviewer-info">
+                        <div class="reviewer-name">Marvel T.</div>
+                        <div class="review-date">January 22, 2024</div>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star active"></i>
+                </div>
+                <div class="review-text">
+                    Been coming here for 6 months now and never disappointed. Consistently great cuts. The yellow gold tint I got last time was fire!
+                </div>
+                <div class="review-images">
+                    <!-- <img src="./now.jpg" alt="Gold tint haircut" class="review-image"> -->
+                </div>
+            </div>
+            
+            <!-- Review 5 -->
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="./now6.jpg" alt="Kale O." class="reviewer-img">
+                    <div class="reviewer-info">
+                        <div class="reviewer-name">Kale O.</div>
+                        <div class="review-date">January 5, 2024</div>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <div class="review-text">
+                    Great haircut and beard trim. The barber really knows how to work with different hair types. Changed my entire look that made people to start complimentinng me.
+                </div>
+            </div>
+            
+            <!-- Review 6 -->
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="./now7.jpg" alt="Tomiwa O." class="reviewer-img">
+                    <div class="reviewer-info">
+                        <div class="reviewer-name">Tomiwa O.</div>
+                        <div class="review-date">December 18, 2024</div>
+                    </div>
+                </div>
+                <div class="rating">
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star active"></i>
+                    <i class="fas fa-star active"></i>
+                </div>
+                <div class="review-text">
+                    My best stylist! The mid fade with curls I got was exactly what I envisioned. The attention to detail is unmatched. Plus he has been my barber for long and he never disappoint me.
+                </div>
+                <!-- <div class="review-images"> -->
+                    <!-- <img src="./now7.jpg" alt="Mid fade with curls" class="review-image"> -->
+                    <!-- <img src="./now8.jpg" alt="Side view" class="review-image"> -->
+                </div>
+            </div>
+        </div>
+        
+        <!-- Leave Review Section -->
+        <div class="leave-review">
+            <h2 class="section-title">Leave Your Review</h2>
+            <form id="reviewForm">
+                <div class="form-group">
+                    <label for="reviewerName">Your Name</label>
+                    <input type="text" id="reviewerName" class="form-control" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Your Rating</label>
+                    <div class="star-rating">
+                        <i class="fas fa-star" data-rating="1"></i>
+                        <i class="fas fa-star" data-rating="2"></i>
+                        <i class="fas fa-star" data-rating="3"></i>
+                        <i class="fas fa-star" data-rating="4"></i>
+                        <i class="fas fa-star" data-rating="5"></i>
+                    </div>
+                    <input type="hidden" id="ratingValue" value="0">
+                </div>
+                
+                <div class="form-group">
+                    <label for="reviewText">Your Review</label>
+                    <textarea id="reviewText" class="form-control" required></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label for="reviewImages">Upload Photos (Optional)</label>
+                    <input type="file" id="reviewImages" class="form-control" multiple accept="image/*">
+                </div>
+                
+                <button type="submit" class="submit-btn">Submit Review</button>
+            </form>
+        </div>
+    </div>
+    
+    <footer class="rights">
+        <p>&copy; 2025 Samluck~Curtz Barber Shop. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('menuBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking on a link
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+            });
+        });
+        
+        // Rating filter functionality
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                // Here you would filter reviews based on rating
+                // This would require more JavaScript to implement fully
+            });
+        });
+        
+        // Star rating functionality
+        const stars = document.querySelectorAll('.star-rating i');
+        const ratingInput = document.getElementById('ratingValue');
+        
+        stars.forEach(star => {
+            star.addEventListener('click', () => {
+                const rating = parseInt(star.getAttribute('data-rating'));
+                ratingInput.value = rating;
+                
+                stars.forEach((s, index) => {
+                    if (index < rating) {
+                        s.classList.add('active');
+                    } else {
+                        s.classList.remove('active');
+                    }
+                });
+            });
+            
+            star.addEventListener('mouseover', () => {
+                const rating = parseInt(star.getAttribute('data-rating'));
+                
+                stars.forEach((s, index) => {
+                    if (index < rating) {
+                        s.classList.add('hover');
+                    } else {
+                        s.classList.remove('hover');
+                    }
+                });
+            });
+            
+            star.addEventListener('mouseout', () => {
+                stars.forEach(s => s.classList.remove('hover'));
+            });
+        });
+        
+        // Form submission
+        const reviewForm = document.getElementById('reviewForm');
+        reviewForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            // Here you would handle form submission (AJAX or other method)
+            alert('Thank you for your review!');
+            reviewForm.reset();
+            stars.forEach(star => star.classList.remove('active'));
+            ratingInput.value = '0';
+        });
+    </script>
+</body>
+</html>
